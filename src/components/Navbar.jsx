@@ -8,6 +8,10 @@ import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
+/**
+ * Navbar component representing the navigation bar
+ * @returns returns the navbar
+ */
 const Navbar = () => {
   {/* useState */ }
   const [active, setActive] = useState('');

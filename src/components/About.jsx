@@ -41,6 +41,10 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 )
 
+/**
+ * About component displays information about the developer.
+ * @returns returns the about component
+ */
 const About = () => {
   return (
     <>

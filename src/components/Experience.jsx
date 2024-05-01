@@ -64,6 +64,7 @@ const ExperienceCard = ({ experience }) => {
 
 /**
  * Experience component creates a timeline with experience details
+ * 
  * */
 const Experience = () => {
   return (

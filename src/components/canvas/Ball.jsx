@@ -1,3 +1,6 @@
+/**
+ * Importing necessary modules from React and Three.js libraries.
+ * */
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -10,6 +13,13 @@ import {
 
 import CanvasLoader from "../Loader";
 
+/**
+ * Ball component
+ * Represents a three-dimensional sphere with an embedded texture.
+ * @param {object} props - Component properties.
+ * @param {string} props.imgUrl - URL of the texture to apply to the sphere.
+ * @returns {JSX.Element} - React component that renders the sphere.
+ */
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
@@ -37,6 +47,13 @@ const Ball = (props) => {
   );
 };
 
+/**
+ * BallCanvas component
+ * Represents a 3D canvas containing a Ball with an embedded texture.
+ * @param {object} props - Component properties.
+ * @param {string} props.icon - URL of the texture to apply to the sphere.
+ * @returns {JSX.Element} - React component that renders the 3D canvas.
+ */
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
@@ -55,7 +72,3 @@ const BallCanvas = ({ icon }) => {
 };
 
 export default BallCanvas;
-
-/**
- * minute: 8:16 
- * */ 

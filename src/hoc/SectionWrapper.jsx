@@ -3,6 +3,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
+/**
+ * SectionWrapper Component is a higher order component that wraps a given component in a motion.div with the specified styles and variants.
+ * @param {*} Component 
+ * @param {*} idName 
+ * @returns 
+ */
 const SectionWrapper = (Component, idName) =>
     function HOC() {
         return (

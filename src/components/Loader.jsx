@@ -1,5 +1,9 @@
 import { Html, useProgress } from '@react-three/drei'
 
+/**
+ * Loader component representing the loading progress.
+ * @returns returns the loader
+ */
 const Loader = () => {
   const { progress } = useProgress()
 
