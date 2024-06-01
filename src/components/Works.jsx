@@ -1,6 +1,6 @@
 /**
  * Imports necessary modules from React
- * */
+ **/
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 

@@ -1,6 +1,6 @@
 /**
  * imports necessary modules from React
- * */
+ **/
 import React from "react";
 import {
   VerticalTimeline,

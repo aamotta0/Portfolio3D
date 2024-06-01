@@ -1,6 +1,6 @@
 /**
  * Importing necessary modules from React and Three.js libraries.
- * */
+ **/
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {

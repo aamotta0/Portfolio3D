@@ -1,6 +1,6 @@
 /**
  * Importing necessary modules from React and Three.js libraries.
- * */
+ **/
 import { Suspense, useState, useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
